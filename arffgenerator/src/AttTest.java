@@ -12,7 +12,7 @@ public class AttTest {
 
 		String zdruzi = "";
 		zdruzi = zdruzi + opis[0];
-		for (int i=0; i<opis.length; i++){
+		for (int i=1; i<opis.length; i++){
 			if (i<opis.length)
 				zdruzi = zdruzi + ",";
 			zdruzi = zdruzi + opis[i];
@@ -23,7 +23,7 @@ public class AttTest {
 
 		zdruzi = "";
 		zdruzi = zdruzi + veter[0];
-		for (int i=0; i<veter.length; i++){
+		for (int i=1; i<veter.length; i++){
 			if (i<veter.length)
 				zdruzi = zdruzi + ",";
 			zdruzi = zdruzi + veter[i];
