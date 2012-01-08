@@ -5,7 +5,7 @@ public class AttTest {
 	public static void main(String[] args) throws Exception {
 		System.out.println("@relation vreme" + "\n");
 
-		String[] opis = {"hladno", "toplo", "vetrovno", "deževno", "sneži"};
+		String[] opis = {"hladno", "toplo", "vetrovno", "dezevno", "snezi"};
 		int temperatura = 0;
 		String[] veter = {"0", "5", "10", "20", "50"};
 		String[] moznost_padavin = {"0", "10", "20", "30", "40", "50", "60", "70", "80", "90", "100"};
