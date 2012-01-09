@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class AttTest {
 	public static void main(String[] args) throws Exception {
-		System.out.println("@relation vreme" + "\n");
+		System.out.println("@relation vreme" + "\n" + "\n");
 
 		String[] opis = {"hladno", "toplo", "vetrovno", "dezevno", "snezi"};
 		int temperatura = 0;
